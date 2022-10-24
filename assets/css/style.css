@@ -30,6 +30,13 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
+@media (max-width: 414px) {
+    .heading {
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
 /*-the game area-*/
 
 .play-area {
@@ -143,7 +150,7 @@ h1, h2 {
 
 /*-footer-*/
 footer {
-    height: 150px;
+    height: 30vh;
 }
 
 
@@ -160,9 +167,24 @@ footer {
     border: 5px solid #252525;
     margin: 2rem auto 1rem auto;
     padding: 10px;
-    width: 60%;
+    width: 30%;
 }
 
 .scores {
     display: inline-block;
+}
+
+#win {
+    color: green;
+    font-weight: bold;
+}
+
+#draw {
+    color: orange;
+    font-weight: bold;
+}
+
+#lose {
+    color: red;
+    font-weight: bold;
 }
