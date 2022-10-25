@@ -15,19 +15,19 @@
     </h1>
 <div class="play-area">
     <div class="game-zone">
-        <button data-type="rock" class="btn btn--big btn--brown">
+        <button onclick="game(this.value)" data-type="rock" class="btn btn--big btn--brown">
             <i class="far fa-hand-rock"></i>
          </button>
-         <button data-type="paper" class="btn btn--big btn--blue">
+         <button onclick="game(this.data-type)" data-type="paper" class="btn btn--big btn--blue">
             <i class="far fa-hand-paper"></i>
          </button>
-         <button data-type="scissors" class="btn btn--big btn--red">
+         <button onclick="game(this.data-type)" data-type="scissors" class="btn btn--big btn--red">
             <i class="far fa-hand-scissors"></i>
          </button>
-         <button data-type="lizard" class="btn btn--big btn--green">
+         <button onclick="game(this.data-type)" data-type="lizard" class="btn btn--big btn--green">
             <i class="far fa-hand-lizard"></i>
          </button>
-         <button data-type="spock" class="btn btn--big btn--yellow">
+         <button onclick="game(this.data-type)" data-type="spock" class="btn btn--big btn--yellow">
             <i class="far fa-hand-spock"></i>
          </button>
     </div>
