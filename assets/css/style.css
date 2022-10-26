@@ -172,26 +172,30 @@ footer {
 
 .scores {
     display: inline-block;
+    font-size: 20px;
 }
 
 #win {
     color: green;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #draw {
     color: orange;
     font-weight: bold;
+    font-size: 20px;
 }
 
 #lose {
     color: red;
     font-weight: bold;
+    font-size: 20px;
 }
 
 
 #result {
-    font-size: 20px;
+    font-size: 30px;
     color: #252525;
     height: 2vh;
 }
