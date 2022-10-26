@@ -3,6 +3,24 @@ let i = Math.floor(Math.random() * 5);
 let computerChoice = choices[i];
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    let buttons = document.getElementsByTagName("button");
+
+    //could have used (let i = 0; i < buttons.length; i++), allows us to iterate the array of buttons
+    for(let button of buttons) {
+        //adding button listner and giving each button a function to execute.
+        button.addEventListener("click", function () {
+            //'this' refers to the button that is clicked that has a submit attribute
+            let userChoice = this.getAttribute("data-type");
+            game(userChoice);
+        })
+    }
+
+    
+})
+
+
+
 function game(userChoice) { 
     if(userChoice === "paper" && computerChoice === "rock" || userChoice === "rock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "paper" || userChoice === "rock" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "paper" || userChoice === "paper" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "rock") {
         alert("Congradulations....You Win!!!");
