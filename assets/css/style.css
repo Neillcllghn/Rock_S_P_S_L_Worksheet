@@ -193,9 +193,7 @@ footer {
     font-size: 20px;
 }
 
-
+/*-css for the result message-*/
 #result {
     font-size: 30px;
-    color: #252525;
-    height: 2vh;
 }
