@@ -188,3 +188,9 @@ footer {
     color: red;
     font-weight: bold;
 }
+
+
+#result {
+    font-size: 20px;
+    color: #252525;
+}
