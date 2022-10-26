@@ -2,15 +2,13 @@ let choices = ["rock", "paper", "scissors", "lizard", "spock"];
 let i = Math.floor(Math.random() * 5);
 let computerChoice = choices[i];
 
-
+//adding an event listener to all the buttons
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
-    //could have used (let i = 0; i < buttons.length; i++), allows us to iterate the array of buttons
+    
     for(let button of buttons) {
-        //adding button listner and giving each button a function to execute.
         button.addEventListener("click", function () {
-            //'this' refers to the button that is clicked that has a submit attribute
             let userChoice = this.getAttribute("data-type");
             game(userChoice);
         })
@@ -39,6 +37,12 @@ function game(userChoice) {
     setTimeout(continuGame);
 }
 
+
+function resultNotifcation() {
+    let messages = document.getElementById("result")
+
+
+}
 
 
 function winScore () {
