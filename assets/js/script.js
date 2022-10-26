@@ -11,24 +11,21 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener("click", function () {
             let userChoice = this.getAttribute("data-type");
             game(userChoice);
-        })
+        });
+    } function game(userChoice) { 
+        if(userChoice === "paper" && computerChoice === "rock" || userChoice === "rock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "paper" || userChoice === "rock" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "paper" || userChoice === "paper" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "rock") {
+            winScore();
+        } else if (userChoice === computerChoice) {
+            drawScore();
+        } else {
+            loseScore();
+        }
+        
     }
 
     
-})
+});
 
-
-
-function game(userChoice) { 
-    if(userChoice === "paper" && computerChoice === "rock" || userChoice === "rock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "paper" || userChoice === "rock" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "scissors" || userChoice === "scissors" && computerChoice === "lizard" || userChoice === "lizard" && computerChoice === "paper" || userChoice === "paper" && computerChoice === "spock" || userChoice === "spock" && computerChoice === "rock") {
-        winScore();
-    } else if (userChoice === computerChoice) {
-        drawScore();
-    } else {
-        loseScore();
-    }
-    
-}
 
 
 function winScore () {
