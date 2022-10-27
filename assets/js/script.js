@@ -31,16 +31,18 @@ document.addEventListener("DOMContentLoaded", function() {
 function winScore () {
     let winPoints = parseInt(document.getElementById("win").innerText);
     document.getElementById("win").innerText = ++winPoints;
-    document.getElementById("result").innerHTML = "Congradulations....You Win!!!";
+    document.getElementById("result").innerHTML = "<p>Congradulations....You Win!!!</p>";
 
     let message = document.getElementById("result");
     message.style.color = "green";
+
+
 }
 
 function drawScore () {
     let drawPoints = parseInt(document.getElementById("draw").innerText);
     document.getElementById("draw").innerText = ++drawPoints;
-    document.getElementById("result").innerHTML = "It is a draw!";
+    document.getElementById("result").innerHTML = "<p>It is a draw!</p>";
 
     let message = document.getElementById("result");
     message.style.color = "orange";
@@ -49,7 +51,7 @@ function drawScore () {
 function loseScore () {
     let losePoints = parseInt(document.getElementById("lose").innerText);
     document.getElementById("lose").innerText = ++losePoints;
-    document.getElementById("result").innerHTML = "Sorry, You lost!";
+    document.getElementById("result").innerHTML = "<p>Sorry, You lost!</p>";
 
     let message = document.getElementById("result");
     message.style.color = "red";
