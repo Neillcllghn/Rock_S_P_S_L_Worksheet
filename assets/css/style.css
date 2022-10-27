@@ -137,15 +137,16 @@ h1, h2 {
 
 .btn--brown {
     margin-top: 25px;
-    background-color: maroon;
-    border: 1px transparent;
+    background-color: #fff;
+    color: maroon;
     border-radius: 50%;
     margin-bottom: 1.5rem;
 }
 
 .btn--brown:active,
 .btn--brown:hover {
-    background-color: rgb(53, 3, 24);
+    background-color: maroon;
+    color: #fff;
 }
 
 /*-footer-*/
