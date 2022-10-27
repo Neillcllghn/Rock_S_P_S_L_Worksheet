@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function winScore () {
     let winPoints = parseInt(document.getElementById("win").innerText);
     document.getElementById("win").innerText = ++winPoints;
-    document.getElementById("result").innerHTML = "<p>Congradulations....You Win!!!</p>";
+    document.getElementById("result").innerHTML = `<p>Congradulations....You Win!!! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "green";
@@ -42,7 +42,7 @@ function winScore () {
 function drawScore () {
     let drawPoints = parseInt(document.getElementById("draw").innerText);
     document.getElementById("draw").innerText = ++drawPoints;
-    document.getElementById("result").innerHTML = "<p>It is a draw!</p>";
+    document.getElementById("result").innerHTML = `<p>It is a draw! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "orange";
@@ -51,7 +51,7 @@ function drawScore () {
 function loseScore () {
     let losePoints = parseInt(document.getElementById("lose").innerText);
     document.getElementById("lose").innerText = ++losePoints;
-    document.getElementById("result").innerHTML = "<p>Sorry, You lost!</p>";
+    document.getElementById("result").innerHTML = `<p>Sorry, You lost! The Computer chose ${computerChoice}</p>`;
 
     let message = document.getElementById("result");
     message.style.color = "red";
