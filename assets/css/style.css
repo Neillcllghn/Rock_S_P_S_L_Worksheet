@@ -38,6 +38,7 @@ h1, h2 {
 }
 
 /*-the game area-*/
+/*-Inspired by the Love Maths Project by CI and my Project Simple Foods-*/
 
 .play-area {
     background: linear-gradient(45deg, grey, transparent);
@@ -55,6 +56,7 @@ h1, h2 {
 
 
 /* --------- Buttons */
+/*-Inspired by the Love Maths Project by CI-*/
 
 .btn {
     width: 220px;
@@ -157,7 +159,7 @@ footer {
 
 
 /*-score-area-*/
-
+/*-Inspired by the Love Maths Project by CI-*/
 .score-area {
     display: flex;
     flex-direction: column;
