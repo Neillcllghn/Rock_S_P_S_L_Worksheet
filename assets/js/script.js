@@ -2,16 +2,17 @@
 function userAccess () {
     let gameArena = document.getElementById("game-arena");
     let username = document.getElementById("username").value;
+    let signIn = document.getElementById("sign-in-div")
    
     if(username === "") {
         gameArena.style.display = 'none';
         document.getElementById("message").innerHTML="Please fill in username before proceeding";
         document.getElementById("message").style.color ="white";
-        
     }
     else {
         gameArena.style.display = 'block';
         document.getElementById("message").innerHTML="";
+        console.log(username);
     }
 }
 
