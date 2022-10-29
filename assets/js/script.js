@@ -15,11 +15,6 @@ function userAccess () {
     }
 }
 
-function gameArea () {
-if(document.getElementById("game-arena").style.display === 'block') {
-
-}
-}
 
 //Inspired by Love Maths and Rock Paper Scissors Game Using HTML & CSS & JavaScript by True Coder
 let choices = ["rock", "paper", "scissors", "lizard", "spock"];
