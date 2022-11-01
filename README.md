@@ -58,3 +58,12 @@ I confirmed that the colors and font chosen are easy to read and accessible by r
  ![image](https://user-images.githubusercontent.com/109948740/199324071-44106756-fb88-4b29-8e0e-8ac5f8f5c17b.png)
 
 
+# Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab.
+2. Click on the Pages section within the Settings tab.
+2. From the source section drop-down menu, select main.
+3. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here:
+
