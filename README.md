@@ -37,4 +37,24 @@ Users will learn the rules of the game (which is located in the footer of the pa
 
 ![image](https://user-images.githubusercontent.com/109948740/199322714-ffdbef7c-5e62-497a-bdc4-001366d6362b.png)
 
+# Testing:
+- I tested that each page of the website works on different browsers such as Chrome, Firefox and Edge.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the header, Sign in section, Game area options, Game Results and footer text are all readable and easy to understand.
+- I confirmed that the sign-in section requires a username be inputted before the game can be played.
+
+
+# Validator Testing:
+### HTML:
+No errors were returned when passing through the official W3C validator.
+### CSS:
+No errors were found when passing through the official (jigsaw) validator.
+### Accessibility: (via Lighthouse)
+I confirmed that the colors and font chosen are easy to read and accessible by running it through lighthouse in devtools.
+#### Desktop devices:
+ ![image](https://user-images.githubusercontent.com/109948740/199324054-bf4e383c-ed8c-4483-a2c3-52d4687ab7b4.png)
+
+#### Mobile devices:
+ ![image](https://user-images.githubusercontent.com/109948740/199324071-44106756-fb88-4b29-8e0e-8ac5f8f5c17b.png)
+
 
