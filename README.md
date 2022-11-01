@@ -28,6 +28,13 @@ Users will learn the rules of the game (which is located in the footer of the pa
 -	A message will appear just below the Game area section and above the Game result section outlining whether the user had won, lost or drew with the computer and provide the user with what the computer chose.
 -	The results and score are clear to the user, making the game easy to play and understand.
 
-![image](https://user-images.githubusercontent.com/109948740/199320992-1cfe0601-e5d7-4be6-8474-737815413011.png)
+![image](https://user-images.githubusercontent.com/109948740/199321459-dd158263-ce1d-48de-87b2-a8ef815a017f.png)
 ![image](https://user-images.githubusercontent.com/109948740/199321009-228bc9dc-6c4b-4075-b913-4f40be759d92.png)
+
+## Footer:
+-	This outlines the rules of the game and therefore is a valuable part of the app for the user to gain an understanding of the game dynamics.
+-	There is a link to a Youtube video to assist the user further should they still require assistance and possibly a bit of humour – directly from Big Bang Theory.
+
+![image](https://user-images.githubusercontent.com/109948740/199322714-ffdbef7c-5e62-497a-bdc4-001366d6362b.png)
+
 
