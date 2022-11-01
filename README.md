@@ -3,8 +3,8 @@ Inspired by the Big Bang Theory - The Rock/Paper/Scissors game takes on a twist 
 Users will learn the rules of the game (which is located in the footer of the page) and there is a handy video that the user can watch if they are still unsure as to what is going on. Furthermore, the user will be required to log a username before proceeding to the game. This site is targeted towards both adults and children as it is a simple app for which the user can have fun.
 
 # Features
-•	Header:
-o	The Header clearly tells the user what game they are playing.
-o	The Font used is lato & Merriweather which is easy to read and easy on the eye.
+--Header:
+--The Header clearly tells the user what game they are playing.
+--The Font used is lato & Merriweather which is easy to read and easy on the eye.
  
 ![image](https://user-images.githubusercontent.com/109948740/199311669-24eb804a-8669-407e-ad9f-506cd92137da.png)
