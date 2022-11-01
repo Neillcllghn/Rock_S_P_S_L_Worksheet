@@ -74,3 +74,5 @@ The live link can be found here:
 3.	The hiding of the game area and result section via JavaScript was inspired by Daniel Mark in the YouTube video: [Show or hide an element using JavaScript!](https://www.youtube.com/watch?v=DULFs16I_z8).
 4.	The username section functionality via JavaScript to prevent user from playing the game if a username is not inputted was inspired by the YouTube video [TextBox validation in Javascript | Username validation using Javascript in Hindi](https://www.youtube.com/watch?v=GOliPWW-NWY) by Thapa Technical.
 
+# Media
+-Images used came from [Font Awesome](https://fontawesome.com/)
