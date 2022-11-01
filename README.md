@@ -23,3 +23,11 @@ Users will learn the rules of the game (which is located in the footer of the pa
 
 ![image](https://user-images.githubusercontent.com/109948740/199318336-f704e5a2-b551-4c61-b0dc-9ebefcfcd4ec.png)
 
+## Game Results:
+-	When the user selects an option, the results are recorded in the game result box.
+-	A message will appear just below the Game area section and above the Game result section outlining whether the user had won, lost or drew with the computer and provide the user with what the computer chose.
+-	The results and score are clear to the user, making the game easy to play and understand.
+
+![image](https://user-images.githubusercontent.com/109948740/199320992-1cfe0601-e5d7-4be6-8474-737815413011.png)
+![image](https://user-images.githubusercontent.com/109948740/199321009-228bc9dc-6c4b-4075-b913-4f40be759d92.png)
+
