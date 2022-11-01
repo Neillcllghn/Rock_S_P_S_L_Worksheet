@@ -75,4 +75,4 @@ The live link can be found here:
 4.	The username section functionality via JavaScript to prevent user from playing the game if a username is not inputted was inspired by the YouTube video [TextBox validation in Javascript | Username validation using Javascript in Hindi](https://www.youtube.com/watch?v=GOliPWW-NWY) by Thapa Technical.
 
 # Media
--Images used came from [Font Awesome](https://fontawesome.com/)
+- Images used came from [Font Awesome](https://fontawesome.com/)
