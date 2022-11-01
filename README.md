@@ -70,7 +70,7 @@ The live link can be found here:
 # Credits:
 ## Content
 1.	The code used for the Game area (Buttons) and the styling via CSS was inspired by the CI Project: [Love Maths]( https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
-2.	The Game functionality for JavaScript was inspired by the YouTube video [Rock Paper Scissors Game Using HTML & CSS & JavaScript]( https://www.youtube.com/watch?v=eygshyXEWBk) by True Coder
-3.	The hiding of the game area and result section via JavaScript was inspired by Daniel Mark in the YouTube video: [Show or hide an element using JavaScript!] (https://www.youtube.com/watch?v=DULFs16I_z8).
-4.	The username section functionality via JavaScript to prevent user from playing the game if a username is not inputted was inspired by the YouTube video [TextBox validation in Javascript | Username validation using Javascript in Hindi] (https://www.youtube.com/watch?v=GOliPWW-NWY) by Thapa Technical.
+2.	The Game functionality for JavaScript was inspired by the YouTube video [Rock Paper Scissors Game Using HTML & CSS & JavaScript](https://www.youtube.com/watch?v=eygshyXEWBk) by True Coder
+3.	The hiding of the game area and result section via JavaScript was inspired by Daniel Mark in the YouTube video: [Show or hide an element using JavaScript!](https://www.youtube.com/watch?v=DULFs16I_z8).
+4.	The username section functionality via JavaScript to prevent user from playing the game if a username is not inputted was inspired by the YouTube video [TextBox validation in Javascript | Username validation using Javascript in Hindi](https://www.youtube.com/watch?v=GOliPWW-NWY) by Thapa Technical.
 
