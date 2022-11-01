@@ -2,7 +2,6 @@
 function userAccess () {
     let gameArena = document.getElementById("game-arena");
     let username = document.getElementById("username").value;
-    let signIn = document.getElementById("sign-in-div")
    
     if(username === "") {
         gameArena.style.display = 'none';
