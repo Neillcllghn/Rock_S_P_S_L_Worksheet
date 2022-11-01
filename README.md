@@ -12,7 +12,14 @@ Users will learn the rules of the game (which is located in the footer of the pa
 ## Sign in section:
 -	Requires user to input a username of their choosing.
 -	The user will not be able to play the game unless a username is inputted.
+-	As username must remain filled in for the user to proceed with playing.
  
 ![image](https://user-images.githubusercontent.com/109948740/199313665-8d49bc04-c3db-4d30-8820-0ec29aa99d5e.png)
 
+
+## Game Area:
+-	The user will be given clear options to choose from to play - Rock, Paper, Scissors, Lizard and Spock.
+-	These are interactive buttons using font awesome images to assist in the visual aspect, that the user can click on to make their chose.
+
+![image](https://user-images.githubusercontent.com/109948740/199318336-f704e5a2-b551-4c61-b0dc-9ebefcfcd4ec.png)
 
