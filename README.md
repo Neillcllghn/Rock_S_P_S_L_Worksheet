@@ -8,3 +8,11 @@ Users will learn the rules of the game (which is located in the footer of the pa
 - The Font used is lato & Merriweather which is easy to read and easy on the eye.
  
 ![image](https://user-images.githubusercontent.com/109948740/199311669-24eb804a-8669-407e-ad9f-506cd92137da.png)
+
+## Sign in section:
+-	Requires user to input a username of their choosing.
+-	The user will not be able to play the game unless a username is inputted.
+ 
+![image](https://user-images.githubusercontent.com/109948740/199313665-8d49bc04-c3db-4d30-8820-0ec29aa99d5e.png)
+
+
