@@ -1,8 +1,11 @@
+//Inspired by video on TextBox validation by Thapa Technical
 
 function userAccess () {
+    let formDiv = document.getElementById("sign-in-div") 
     let gameArena = document.getElementById("game-arena");
     let username = document.getElementById("username").value;
-   
+
+    
     if(username === "") {
         gameArena.style.display = 'none';
         document.getElementById("message").innerHTML="Please fill in username before proceeding";
@@ -10,11 +13,11 @@ function userAccess () {
     }
     else {
         gameArena.style.display = 'block';
+        formDiv.style.display = 'none'
         document.getElementById("message").innerHTML="";
-        console.log(username);
+      
     }
 }
-
 
 //Inspired by Love Maths and Rock Paper Scissors Game Using HTML & CSS & JavaScript by True Coder
 let choices = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -46,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     
 });
-
 
 
 function winScore (computerChoice) {
