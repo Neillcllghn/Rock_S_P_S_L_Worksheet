@@ -12,7 +12,7 @@ Users will learn the rules of the game (which is located in the footer of the pa
 ## Sign in section:
 -	Requires user to input a username of their choosing.
 -	The user will not be able to play the game unless a username is inputted.
--	As username must remain filled in for the user to proceed with playing.
+-	Once a username has been inputted and the submit button is clicked on, the sign in section will disappear, revealing the game area.
  
 ![image](https://user-images.githubusercontent.com/109948740/199313665-8d49bc04-c3db-4d30-8820-0ec29aa99d5e.png)
 
